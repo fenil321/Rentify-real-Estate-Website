@@ -1,0 +1,117 @@
+.searchItem{
+    border: 5px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 1200px;
+    margin-left: 150px;
+}
+.siImg{
+    width: 400px;
+    height: 260px;
+    object-fit: cover;
+}
+.siDesc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+    background-color:rgba(135, 207, 235, 0.21);
+}
+.siDetails{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:rgba(135, 207, 235, 0.21);
+}
+.siTitle{
+    font-size: 20px;
+}
+.siDistance{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.siTaxiOp{
+    font-size: 17px;
+    width:max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.siSubtitle{
+    font-size: 17px;
+    border-radius: 5px;
+}
+.siFeatures{
+    font-size: 17px;
+    border-radius: 5px;
+}
+.siCancelOp{
+    font-size: 15px;
+    color:cornflowerblue;
+    font-weight: bold;
+    background-color: rgba(250, 235, 215, 0.724);
+    box-shadow: 0 0 1rem rgba(0,0,0,.1);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.siCancleOpSubtitle{
+    font-size: 15px;
+}
+.siRating{
+    display: flex;
+    justify-content: space-between;
+}
+.siRating>span{
+    font-weight: 500;
+}
+.siRating>button{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+}
+.siDetaileTexts{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.siPrice{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.siTaxOp{
+    font-size: 17px;
+    background-color: rgb(200, 0, 255);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.siCheckButton{
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-weight: bolder;
+    padding: 10px 5px;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 24px;
+}
+.sispan{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    color: rgb(59,59,59);
+    cursor: pointer;
+
+}

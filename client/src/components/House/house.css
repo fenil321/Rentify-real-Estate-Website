@@ -1,0 +1,233 @@
+.homeContainer{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    margin-top: 30px;
+}
+
+.homeWrapper{
+    width:100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    position: relative;
+}
+.homeImgWrapper{
+    width:33%;
+}
+.homeImg{
+    width:100%;
+    object-fit: cover;
+}
+.homeTitle{
+    font-size: 24px;
+}
+.homeAddress{
+   font-size: 12px;
+   display: flex;
+   align-items: center;
+   gap:10px;
+}
+.homeDistance{
+    color:rgb(0, 34, 255);
+    font-weight: 500;
+}
+.homePriceHighlight{
+    color: chartreuse;
+    font-weight: 500;
+}
+.homeImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.booknow{
+    position: absolute;
+    top: 10px;
+    right: 0%;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(0, 153, 255);
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.homeDetailes{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    margin-top: 20px;
+}
+.homeDetaileTexts{
+    flex:3;
+}
+.homeDetailePrice{
+    flex:1;
+    background-color: rgba(200, 255, 0, 0.434);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.homeDesc{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.homeDetailePrice>h1{
+    font-size: 18px;
+    color: rgb(30, 81, 177);
+}
+.homeDetailePrice>span{
+    font-size: 14px;
+}
+.homeDetailePrice>h2{
+    font-weight: 300;
+}
+.homeDetailePrice>button{
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(0, 153, 255);
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.slider{
+    position: sticky;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.107);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+.slideWrapper{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sliderImg{
+    width:95%;
+    height: 85%;
+}
+.close{
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    top:20px;
+    right: 20px;
+    color: rgb(148, 33, 33);
+}
+.arrow{
+    margin:20px;
+    font-size: 50px;
+    color: rgb(148, 33, 33);
+    cursor: pointer;
+}
+
+.seller {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+.seller .user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+.seller .user img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+.seller .user .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+.seller .user .info .stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+.seller .user .info .stars img {
+    height: 14px;
+    width: 14px;
+  }
+.seller .user .info .stars span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffc108;
+  }
+.seller .user .info button {
+    background-color: hsl(221, 37%, 40%);
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+  }
+.seller .box {
+    border: 15px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+.seller .box .items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+.seller .box .items .item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+.seller .box .items .item .title {
+    font-weight: 300;
+  }
+.seller .box hr {
+    height: 0;
+    border: 0.5px solid lightgray;
+    margin-bottom: 20px;
+  }
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+ .user .pp {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+ .user span {
+    font-size: 14px;
+    font-weight: 500;
+  }
+ .user .stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+ .user .stars img {
+    height: 14px;
+    width: 14px;
+  }
+ .user .stars span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffc108;
+  }
