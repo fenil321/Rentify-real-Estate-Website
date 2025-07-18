@@ -21,4 +21,3 @@ A full-stack real estate platform for listing, searching, and managing propertie
 - **Database:** (Add your DB, e.g., MongoDB)
 - **API:** RESTful endpoints
 
----
